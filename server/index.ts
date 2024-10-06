@@ -7,7 +7,7 @@ app.use(express.static(
   path.resolve(__dirname, '..', 'dist')
 ));
 
-const PORT = 80 as const;
+const PORT = 3000 as const;
 
 app.listen(PORT, () => {
   console.info(`Server started on port ${PORT}`);
