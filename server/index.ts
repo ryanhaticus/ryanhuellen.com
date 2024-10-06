@@ -4,7 +4,7 @@ import path from 'path';
 const app = express();
 
 app.use(express.static(
-  path.resolve(import.meta.dirname, '..', 'dist')
+  '../dist'
 ));
 
 const PORT = 3000 as const;
