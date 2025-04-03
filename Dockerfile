@@ -10,6 +10,6 @@ RUN npm run build
 
 RUN npm prune --production --legacy-peer-deps
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["npm", "start"]
